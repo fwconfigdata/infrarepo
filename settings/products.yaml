@@ -1,9 +1,3 @@
-ALL:
-  components_exclude_list: []
-  components_prefix_list: []
-  description: refers to all products
-  envs:
-  - dev
 CICD:
   components_exclude_list: []
   components_prefix_list: []
