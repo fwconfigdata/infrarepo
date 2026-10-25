@@ -1,0 +1,26 @@
+BASTION:
+  envs:
+  - prd
+  - qa
+  shortname: BAS
+DMZ:
+  envs:
+  - prd
+  - qa
+  shortname: DZ
+MGMTAREA:
+  envs:
+  - prd
+  - qa
+  shortname: MGMT
+SERVERFARM:
+  envs:
+  - prd
+  - qa
+  - regression
+  shortname: SF
+WEBAPPAREA:
+  envs:
+  - prd
+  - qa
+  shortname: WEB

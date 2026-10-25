@@ -1,0 +1,37 @@
+ALL:
+  components_exclude_list: []
+  components_prefix_list: []
+  description: refers to all products
+  envs:
+  - dev
+CICD:
+  components_exclude_list: []
+  components_prefix_list: []
+  description: All components used in the CICD process
+  envs:
+  - prd
+  - qa
+  exclude_flowids: []
+  include_flowids: []
+IAM:
+  components_exclude_list: []
+  components_prefix_list:
+  - AD_
+  - LDAP_
+  description: Identity and access management components
+  envs:
+  - prd
+  - qa
+  exclude_flowids: []
+  include_flowids: []
+OCP:
+  components_exclude_list: []
+  components_prefix_list:
+  - OCPBM_
+  - OCP_
+  description: Openshift
+  envs:
+  - prd
+  - qa
+  exclude_flowids: []
+  include_flowids: []

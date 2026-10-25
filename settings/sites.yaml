@@ -1,0 +1,31 @@
+DR:
+  description: Disaster recovery
+  envs:
+  - prd
+  - qa
+INB:
+  description: India Bangalore
+  envs:
+  - prd
+  - qa
+INM:
+  description: India Mumbai
+  envs:
+  - prd
+  - qa
+IR:
+  description: Ireland
+  envs:
+  - prd
+  - qa
+NL:
+  description: Netherlands
+  envs:
+  - prd
+  - qa
+  - regression
+USE:
+  description: United States of America east coast
+  envs:
+  - prd
+  - qa

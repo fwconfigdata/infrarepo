@@ -1,0 +1,18 @@
+HTTP:
+  aliases:
+  - TCP-8080
+  description: TCP-8080
+HTTPS:
+  aliases:
+  - TCP-443
+  description: TCP-443
+PING:
+  aliases: []
+  description: ping protcol
+SSH:
+  aliases:
+  - TCP-22
+  description: TCP-22
+UDP-55:
+  aliases: []
+  description: DNS
