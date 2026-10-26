@@ -1,8 +1,10 @@
 CICD:
   components_exclude_list: []
-  components_prefix_list: []
+  components_prefix_list:
+  - AAP
   description: All components used in the CICD process
   envs:
+  - dev
   - prd
   - qa
   exclude_flowids: []
