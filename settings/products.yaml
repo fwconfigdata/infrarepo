@@ -18,12 +18,34 @@ IAM:
   - qa
   exclude_flowids: []
   include_flowids: []
+MONITORING:
+  components_exclude_list: []
+  components_prefix_list:
+  - KAFKA
+  - LOGSTASH
+  description: Loggin and monitoring components
+  envs:
+  - prd
+  - qa
+  exclude_flowids: []
+  include_flowids: []
 OCP:
   components_exclude_list: []
   components_prefix_list:
   - OCPBM_
   - OCP_
   description: Openshift
+  envs:
+  - prd
+  - qa
+  exclude_flowids: []
+  include_flowids: []
+SECURITY:
+  components_exclude_list: []
+  components_prefix_list:
+  - CYA_
+  - HASHI_
+  description: Security related components
   envs:
   - prd
   - qa
