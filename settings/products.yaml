@@ -21,9 +21,9 @@ IAM:
 MONITORING:
   components_exclude_list: []
   components_prefix_list:
-  - KAFKA
-  - LOGSTASH
-  description: Loggin and monitoring components
+  - KAFKA_
+  - LOGSTASH_
+  description: Logging and monitoring components
   envs:
   - prd
   - qa
@@ -44,7 +44,7 @@ SECURITY:
   components_exclude_list: []
   components_prefix_list:
   - CYA_
-  - HASHI_
+  - HASHICORP_
   description: Security related components
   envs:
   - prd
