@@ -1,11 +1,22 @@
-ocp_viewer: [ocp_viewer_grp]
-ocp_manager: [ocp_manager_grp]
-cicd_viewer: [cicd_viewer_grp]
-cicd_manager: [cicd_manager_grp]
-iam_viewer: [iam_viewer_grp]
-iam_manager: [iam_manager_grp]
-security_viewer: [security_viewer_grp]
-security_manager: [security_manager_grp]
-monitoring_viewer: [monitoring_viewer_grp]
-monitoring_manager: [monitoring_manager_grp]
-platformadmin: [platformadmin_grp]
+ocp_viewer:
+- ocp_viewer_grp
+ocp_manager:
+- ocp_manager_grp
+cicd_viewer:
+- cicd_viewer_grp
+cicd_manager:
+- cicd_manager_grp
+iam_viewer:
+- iam_viewer_grp
+iam_manager:
+- iam_manager_grp
+security_viewer:
+- security_viewer_grp
+security_manager:
+- security_manager_grp
+monitoring_viewer:
+- monitoring_viewer_grp
+monitoring_manager:
+- monitoring_manager_grp
+platformadmin:
+- platformadmin_grp

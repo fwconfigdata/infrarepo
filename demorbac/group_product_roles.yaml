@@ -1,30 +1,30 @@
 ocp_viewer_grp:
   ocp:
-    - viewer
+  - viewer
 ocp_manager_grp:
   ocp:
-    - manager
+  - manager
 cicd_viewer_grp:
   cicd:
-    - viewer
+  - viewer
 cicd_manager_grp:
   cicd:
-    - manager
+  - manager
 iam_viewer_grp:
   iam:
-    - viewer
+  - viewer
 iam_manager_grp:
   iam:
-    - manager
+  - manager
 security_viewer_grp:
   security:
-    - viewer
+  - viewer
 security_manager_grp:
   security:
-    - manager
+  - manager
 monitoring_viewer_grp:
   monitoring:
-    - viewer
+  - viewer
 monitoring_manager_grp:
   monitoring:
-    - manager
+  - manager
