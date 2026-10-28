@@ -1,1 +1,1 @@
-platformadmin_grp: platform_admin
+platformadmin_grp: ["platform_admin"]
