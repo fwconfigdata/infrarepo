@@ -1,0 +1,12 @@
+platformadmin: Platform administrator
+ocp_viewer: OCP read-only user
+ocp_manager: Payments manager
+cicd_viewer: cicd read-only user
+cicd_manager: cicd manager
+iam_viewer: iam read-only user
+iam_manager: iam manager
+monitoring_viewer: monitoring read-only user
+monitoring_manager: monitoring manager
+security_viewer: security read-only user
+security_manager: security manager
+no_role_user: User with no assigned roles

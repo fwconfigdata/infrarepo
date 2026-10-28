@@ -1,0 +1,30 @@
+ocp_viewer_grp:
+  ocp:
+    - viewer
+ocp_manager_grp:
+  ocp:
+    - manager
+cicd_viewer_grp:
+  cicd:
+    - viewer
+cicd_manager_grp:
+  cicd:
+    - manager
+iam_viewer_grp:
+  iam:
+    - viewer
+iam_manager_grp:
+  iam:
+    - manager
+security_viewer_grp:
+  security:
+    - viewer
+security_manager_grp:
+  security:
+    - manager
+monitoring_viewer_grp:
+  monitoring:
+    - viewer
+monitoring_manager_grp:
+  monitoring:
+    - manager
