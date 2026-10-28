@@ -9,4 +9,3 @@ security_manager: security_manager_grp
 monitoring_viewer: monitoring_viewer_grp
 monitoring_manager: monitoring_manager_grp
 platformadmin: platformadmin_grp
-platformadmin:
