@@ -51,5 +51,6 @@ SECURITY:
   envs:
   - prd
   - qa
+  - regression
   exclude_flowids: []
   include_flowids: []
